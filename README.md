@@ -1,11 +1,11 @@
 # CPU-Scheduler-Simulator
-CPU Schedular Simulator: is a Project for Simulating the different CPU Techniques to handle Processes in Ready Queue. Techniques Simulated (Shortest Job First, Shortest Remaining Time First, Priority Scheduling and AG)
+CPU Schedular Simulator: is a Project for Simulating different CPU Techniques to handle Processes in Ready Queue. Techniques Simulated (Shortest Job First, Shortest Remaining Time First, Priority Scheduling and AG)
 
 - Summary Describe each Technique.
 
-  **1. SJR(Shortest Job First) :** CPU Takes take the Process with the Shortest Time(Burst) and Excute it. It could be preemptive where running process should be the one with shortest running time
+  **1. SJR(Shortest Job First) :** CPU Takes take the Process with Shortest Time(Burst) depending on Arrival Time of each Process and Excute it. It could be preemptive where running process should be the one with shortest running time
 
-  **2. SRTF(Shortest Remaining Time First) :** CPU Takes take the Process with the Shortest Time(Burst) and Excute it. But the Difference Between it an SJF that the SRTF is Non-preemptive.
+  **2. SRTF(Shortest Remaining Time First) :** CPU Takes take the Process with Shortest Time(Burst) and Excute it. But the Difference Between it an SJF that SRTF Non-preemptive and it does not depend on the Arrival time of the Process.
 
   **3. Priority Scheduling :** CPU Takes take the Process with the highest Priority and Excute it. It is non Priority Technique.
 
