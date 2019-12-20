@@ -5,8 +5,7 @@ Summary Describe each Technique.
 
 1- SJR(Shortest Job First)
 
-  Associate with each process the length of its next CPU burst, Use these
-lengths to schedule the process with the shortest time.
+    CPU Takes take the Process with the Shortest Time(Burst) and Excute it. It could be pre-emptive where running process should be the one with shortest running time
 
 2- SRTF(Shortest Remaining Time First)
-  
+  Assoicate with each Process 
