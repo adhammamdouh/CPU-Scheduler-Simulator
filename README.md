@@ -23,5 +23,4 @@ AG Factor = Arrival Time + Burst Time + Priority. It is Non-preemptive Technique
 
 Required Libraries to build this Project:
 
-- you need to download and import JFreeChart Library 
-[Download JFree Chart Library From here](http://www.jfree.org/jfreechart/)
+- you need to download and import [JFreeChart Library](http://www.jfree.org/jfreechart/)
