@@ -20,3 +20,8 @@ CPU Takes take the Process with the highest Priority and Excute it. It is non Pr
 Here each Process has Arrival Time, Burst Time and Priority , Quantum and AG Factor. each process excution Time does not exceed it's Quantum.
 
 AG Factor = Arrival Time + Burst Time + Priority. It is Non-preemptive Technique. CPU Takes the first Process in the ready queue, after half of Execution Time of the Current Process till end of it. CPU checks the ready if there ia any better Process "better Process means a Process with lower AG Factor". other wise continue excution when finishing, CPU takes first Process in the Ready Queue.
+
+Required Libraries to build this Project:
+
+- you need to download and import JFreeChart Library 
+[Download JFree Chart Library From here](http://www.jfree.org/jfreechart/)
