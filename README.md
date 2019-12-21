@@ -9,7 +9,7 @@ CPU Schedular Simulator: is a Project for Simulating different CPU Techniques to
 
   **3. Priority Scheduling :** In this scheduling, processes are scheduled according to their priorities, i.e., highest priority process is scheduled first. If priorities of two processes match, then schedule according to arrival time. Here starvation of process is possible.
 
-  **4. AG :** Here each Process has Arrival Time, Burst Time and Priority , Quantum and AG Factor. each process excution Time does not exceed it's Quantum. _AG Factor = Arrival Time + Burst Time + Priority_. It is Non-preemptive Technique. CPU Takes the first Process in the ready queue, after half of Execution Time of the Current Process till end of it. CPU checks the ready if there ia any better Process "better Process means a Process with lower AG Factor". other wise continue excution when finishing, CPU takes first Process in the Ready Queue.
+  **4. AG :** in this scheduling each Process has Arrival Time, Burst Time and Priority , Quantum and AG Factor. each process excution Time does not exceed it's Quantum. _AG Factor = Arrival Time + Burst Time + Priority_. It is Non-preemptive Technique. CPU Takes the first Process in the ready queue, after half of Execution Time of the Current Process till end of it. CPU checks the ready if there ia any better Process "better Process means a Process with lower AG Factor". other wise continue excution when finishing, CPU takes first Process in the Ready Queue.
 
 Required Libraries to build this Project:
 
